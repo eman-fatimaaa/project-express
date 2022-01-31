@@ -1,0 +1,22 @@
+{
+  "name": "project-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eman-fatimaaa/project-express.git"
+  },
+  "author": "eman fatima",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eman-fatimaaa/project-express/issues"
+  },
+  "homepage": "https://github.com/eman-fatimaaa/project-express#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
