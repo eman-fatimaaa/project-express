@@ -6,6 +6,7 @@ const members = require('./Members');
 
 const logger = require('./middleware/logger');
 const router = require('./routes/api/members');
+var PORT = process.env.PORT || 5000;
 
 
 
@@ -69,6 +70,6 @@ router.delete('/:id', (req, res) => {
 })
 
 app.use('/api/members', require('./routes/api/members'))
-app.listen(5000, () => {
+app.listen(PORT, () => {
     console.log(`Server Started`)
 });
